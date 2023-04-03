@@ -1,0 +1,23 @@
+h3{
+    font-size: 35px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(221, 0, 255);
+}
+
+canvas{
+    animation-name: what;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes what{
+    50%{box-shadow: 1px 1px 38px rgb(170, 0, 0);}
+    40%{box-shadow: 1px 1px 38px rgb(11, 74, 4);}
+    10%{box-shadow: 1px 1px 38px rgb(28, 0, 139);}
+}
+
+body {
+    background-image: url("MUSTACHEE.png");
+  }
